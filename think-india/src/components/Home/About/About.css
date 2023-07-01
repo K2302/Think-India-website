@@ -108,6 +108,17 @@
   border-radius: 1vw;
 }
 
+.wrapper{
+  margin: 20px auto;
+  width: 85%;
+}
+
+.wrapper img{
+  max-width: 500px;
+  float: left;
+  margin-right: 20px;
+}
+
 @media only screen and (max-width:991px){
   .events-main-hero{
       height: 60vw;
