@@ -29,13 +29,14 @@ const Navbar= () => {
       <div className='toggle-icon' onClick={handleToggle}>
         {toggle ? <ImCross size={20} /> : <GiHamburgerMenu size={25} />}
       </div>
-      <ul className='links-nav'>
+      <ul className='links-nav' >
         <li><Link to="/">HOME</Link></li>
-        <li><Link to="/">ABOUT US</Link></li>
-        <li><Link to="/">ACTIVITIES</Link></li>
-        <li><Link to="/">ALL STATES</Link></li>
-        <li><Link to="/">GALLERY</Link></li>
+        <li><Link to="/">STATES</Link></li>
+        <li><Link to="/gallery">GALLERY</Link></li>
+        <li><Link to="/">ACTIVITY</Link></li>
         <li><Link to="/">TOURISTS</Link></li>
+        <li><Link to="/">INTERNSHIPS</Link></li>
+        <li><Link to="/">CONTACT US</Link></li>
       </ul>
     </nav>
   )

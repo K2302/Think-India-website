@@ -14,7 +14,7 @@
     width: 100%;
     height: 5rem;
     padding: 1.875rem;
-    background-color:#FFE500;
+    background-color:#f8f8f3;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,8 +24,8 @@
   }
   
   .expanded {
-    background-color:rgb(236, 192, 111);
-    box-shadow: 0px 4px 12px 0px #22425966;
+    background-color:rgb(249, 247, 243);
+    box-shadow: 0px 4px 12px 0px #071e2f66;
   }
   
   .navbar0 .logo {
@@ -44,7 +44,7 @@
   .navbar0 .links-nav li {
     margin: 0 0.9375rem;
     color: white;
-    font-size: 1.3rem;
+    font-size: O.5rem;
     letter-spacing: 0.5px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
@@ -54,9 +54,9 @@
     transition: all 0.15s ease-in-out;
   }
   
-  /* .linls-nav li{
-    color: aliceblue;
-  } */
+  .linls-nav li{
+    color: #484861;
+  } 
  
   
   .links-nav a:hover {
@@ -68,7 +68,7 @@
   }
   a{
     text-decoration: none !important;
-    color: white !important;
+    color: #484861  !important;
   }
   
   @media (max-width: 991px) {
@@ -79,7 +79,7 @@
   
     .navbar0.expanded {
       height: 100vh;
-      background-color: orange;
+      background-color: rgb(227, 226, 224);
     }
   
     .navbar0.expanded .links-nav {
