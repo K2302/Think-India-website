@@ -2,28 +2,42 @@ import React from 'react'
 import './Landing.css';
 import Typed from "react-typed";
 import Navbar from '../../navfoot/Navbar/Navbar';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './Landing.css';
 const Hero = () => {
+  var settings = {
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+   
+};
+
+
   return (
     <>
-      <div className="hero-top">
-        <Navbar />
-        <div className="hero-top-main">
-          <h1 style={{ userSelect: 'none',marginLeft:'15px' }}>THINK </h1>
-          <h1 style={{ userSelect: 'none',marginLeft:'35px'  }}>  INDIA</h1>
-          <h2 style={{ userSelect: 'none',marginLeft:'4px'  }}>NORTH EAST</h2>
-        </div>
-
-        {/* <Typed
-          className="typewriter-hero" style={{ userSelect: 'none' }}
-          strings={[
-           "'Think India' was initiated in 2006 by students of IISc, IIM B & other premier institutions at Bengaluru, India. It is an initiative to bring together the best talent & intellectual human resource of the country & to infuse in them a 'Nation First' attitude."
-          ]}
-          typeSpeed={50}
-          backSpeed={20}
-          loop
-        /> */}
-      </div>
-
+    <div>
+    <Navbar  />
+    </ div >
+      <Slider {...settings} >
+    <div>
+      <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg"/>
+    </div>
+    <div>
+    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg"/>
+    </div>
+    <div>
+    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg"/>
+    </div>
+    <div>
+    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg"/>
+    </div>
+    
+  </Slider>
       
     </>
   )
