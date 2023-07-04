@@ -52,12 +52,7 @@
        }
   
   }
-  
-  @media (max-width:660px){
-      .about_card_{
-          /* display: none; */
-      }
-  }
+
   
   @media only screen and (max-width:610px){
       .card{

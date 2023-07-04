@@ -2,7 +2,6 @@
     display: block;
     margin-top:5.1rem;
     width: 100%;
-    /* height:80vh; */
   }
   @media only screen and (max-width:991px){
     .slick-slide img {

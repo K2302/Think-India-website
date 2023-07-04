@@ -31,12 +31,12 @@ const Navbar= () => {
       </div>
       <ul className='links-nav' >
         <li><Link to="/">HOME</Link></li>
-        <li><Link to="/">STATES</Link></li>
+        <li><Link to="/states">STATES</Link></li>
         <li><Link to="/gallery">GALLERY</Link></li>
-        <li><Link to="/">ACTIVITY</Link></li>
-        <li><Link to="/">TOURISTS</Link></li>
-        <li><Link to="/">INTERNSHIPS</Link></li>
-        <li><Link to="/">CONTACT US</Link></li>
+        <li><Link to="/activity">ACTIVITY</Link></li>
+        <li><Link to="/tourists">TOURISTS</Link></li>
+        <li><Link to="/internhips">INTERNSHIPS</Link></li>
+        <li><Link to="/contsct">CONTACT US</Link></li>
       </ul>
     </nav>
   )

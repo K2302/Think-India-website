@@ -29,7 +29,7 @@ const Purpose = () => {
   return (
     <div>
         <div className="motto">
-        <h3 style={{ fontSize: "4vw" }}>Purpose of THINK INDIA</h3>
+        <h3 style={{ fontSize: "50px" }}>Purpose of THINK INDIA</h3>
       </div>
       <div className="test_card">
         <div className="cards-set-1">
@@ -38,12 +38,7 @@ const Purpose = () => {
           <Card image={moto_image[2]} dialogue={motto_dialogue[2]} />
           <Card image={moto_image[3]} dialogue={motto_dialogue[3]} />
           <Card image={moto_image[4]} dialogue={motto_dialogue[4]} />
-          {/* <Card image={logo} dialogue={motto_dialogue[2]} /> */}
         </div>
-        {/* <div className="cards-set-2">
-          <Card image={logo} dialogue={motto_dialogue[3]} />
-          <Card image={logo} dialogue={motto_dialogue[4]} />
-        </div> */}
     </div>
     </div>
   )

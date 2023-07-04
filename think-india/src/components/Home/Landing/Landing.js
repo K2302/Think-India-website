@@ -1,6 +1,5 @@
 import React from 'react'
 import './Landing.css';
-import Typed from "react-typed";
 import Navbar from '../../navfoot/Navbar/Navbar';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -25,16 +24,16 @@ const Hero = () => {
     </ div >
       <Slider {...settings} >
     <div>
-      <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg"  />
+      <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt="" />
     </div>
     <div>
-    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg"/>
+    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt=""/>
     </div>
     <div>
-    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg"/>
+    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt=""/>
     </div>
     <div>
-    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg"/>
+    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt=""/>
     </div>
     
   </Slider>

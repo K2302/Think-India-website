@@ -119,6 +119,14 @@
   margin-right: 20px;
 }
 
+.about h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 67.2px;
+  text-align: center;
+  color: #224259;
+}
 @media only screen and (max-width:991px){
   .events-main-hero{
       height: 60vw;
@@ -134,7 +142,7 @@
   }
 }
 
-@media only screen and (max-width:660px){
+@media only screen and (max-width:700px){
   .events-main-hero{
       height: 130vw;
       /* aspect-ratio: auto; */

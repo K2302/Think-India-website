@@ -57,10 +57,9 @@ padding: 2% 22.22%;
 }
 
 .motto {
-font-family: "Barlow Condensed";
-font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
 font-weight: 600;
-font-size: 64px;
+font-size: 35px;
 line-height: 67.2px;
 text-align: center;
 color: #224259;
@@ -81,9 +80,7 @@ color: #224259;
 }
 
 @media (max-width:660px){
-    .motto {
-       /* display: none; */
-    }
+   
 
     .contentAbout{
         font-size: 5.5vw;
@@ -91,9 +88,7 @@ color: #224259;
 }
 
 @media only screen and (max-width:610px){
-    .motto{
-        /* display: none; */
-    }
+   
 
     .contentAbout{
         padding-top: 0;
