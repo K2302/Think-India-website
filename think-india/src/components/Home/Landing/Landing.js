@@ -13,31 +13,31 @@ const Hero = () => {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-   
-};
+
+  };
 
 
   return (
     <>
-    <div>
-    <Navbar  />
-    </ div >
+      <div>
+        <Navbar />
+      </ div >
       <Slider {...settings} >
-    <div>
-      <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt="" />
-    </div>
-    <div>
-    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt=""/>
-    </div>
-    <div>
-    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt=""/>
-    </div>
-    <div>
-    <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt=""/>
-    </div>
-    
-  </Slider>
-      
+        <div>
+          <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt="" />
+        </div>
+        <div>
+          <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt="" />
+        </div>
+        <div>
+          <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt="" />
+        </div>
+        <div>
+          <img src="https://res.cloudinary.com/priyojit/image/upload/v1688032745/BACKGROUND4_srxvbs.jpg" alt="" />
+        </div>
+
+      </Slider>
+
     </>
   )
 }
