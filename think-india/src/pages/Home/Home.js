@@ -7,15 +7,15 @@ import Testimonial from '../../components/Home/Testimonials/Testimonials'
 const Home = () => {
   return (
     <div>
-     <Landing />
-     <br></br>
-     <About />
-     <br></br>
-     <Purpose/>
-     <br></br>
-     <Testimonial />
-     <br></br>
-     <Footer/>
+      <Landing />
+      <br></br>
+      <About />
+      <br></br>
+      <Purpose />
+      <br></br>
+      <Testimonial />
+      <br></br>
+      <Footer />
     </div>
   )
 }
