@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+} */
+.heading-div
+{
+    height: 450px;
+    width: 100vw;
+    display: flex;
+    background-image: url('https://res.cloudinary.com/dtalnpahk/image/upload/v1688879224/ThinkIndia/sgvzk1gtlpfnbwnsbvts.png');
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight:bold;
+    /* border: solid black 2px; */
+}
+.rect
+{
+    width: 128px;
+    height: 4px;
+    border-radius: 20px;
+    background: #000088;
+    margin-left: 30px;
+}
+.search-bar
+{
+    padding-top: 20px;
+    margin: auto;
+    width: 80%;
+   
+   
+    display: flex;
+    justify-content: space-between;
+}
+.line
+{
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+    width: 80%;
+    height: 0.5px; 
+}

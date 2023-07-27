@@ -1,0 +1,102 @@
+.logo-img {
+    width: 20%;
+}
+
+.card {
+    padding: 10px;
+    width: 380px;
+    
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card:hover
+{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+
+.event-image {
+    width: 360px;
+    height: 424.5632629394531px;
+
+}
+
+.event {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-name {
+    width: 50%;
+    display: flex;
+    padding-left: 40px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.date-block {
+    position: absolute;
+    background-color: white;
+    width: 50.7684211730957px;
+    height: 66.7740249633789px;
+    top: 406.62396240234375px;
+    left: 15.45263671875px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 500;
+}
+
+.date {
+    width: Fixed (50.77px);
+    height: Fixed (40.79px);
+    top: 406.62396240234375px;
+    left: 12.45263671875px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    gap: 10px;
+    background: #FFFFFF94;
+}
+
+.month {
+    width: Fixed (50.77px);
+    height: Fixed (38.87px);
+    top: 434.5295104980469px;
+    left: 12.45263671875px;
+    padding: 10px 10px 4px 10px;
+    border-radius: 0px 0px 10px 10px;
+    gap: 10px;
+    background: #59598E;
+}
+
+.bottom-div {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icons {
+    display: flex;
+    gap: 4px;
+}
+
+.btn {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 4px;
+    color: #59598E;
+    border: 2px solid #59598E;
+    border-radius: 4px;
+
+}
+
+.icon {
+    width: 21px;
+    height: 21px
+}
